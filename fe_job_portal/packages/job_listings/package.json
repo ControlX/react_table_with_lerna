@@ -1,0 +1,42 @@
+{
+  "name": "@jobs/job_listings",
+  "version": "0.0.0",
+  "description": "job_listings",
+  "author": "Abhishek Verma <abhishek.verma.in@gmail.com>",
+  "homepage": "github.com/controlx",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build-lib": "babel src — out-dir job_listings",
+    "start:dev": "NODE_ENV=development webpack serve --open",
+    "start:prod": "NODE_ENV=production webpack serve --open",
+    "build:dev": "NODE_ENV=development webpack --mode development",
+    "build:prod": "NODE_ENV=production webpack --mode production"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-table": "^7.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^5.2.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

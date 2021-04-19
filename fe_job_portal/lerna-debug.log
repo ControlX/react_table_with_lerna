@@ -1,0 +1,17 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   dev: true,
+0 silly argv   D: true,
+0 silly argv   globs: [ 'packages/job_listings' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'lerna',
+0 silly argv   pkg: '@webpack'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal
+3 error Error: Invalid tag name "@webpack": Tags may not have any characters that encodeURIComponent encodes.
+3 error     at invalidTagName (/Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal/node_modules/npm-package-arg/npa.js:94:15)
+3 error     at fromRegistry (/Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal/node_modules/npm-package-arg/npa.js:299:13)
+3 error     at resolve (/Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal/node_modules/npm-package-arg/npa.js:84:12)
+3 error     at npa (/Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal/node_modules/npm-package-arg/npa.js:55:10)
+3 error     at AddCommand.initialize (/Users/abhishek_vermaepam.com/Documents/general_projs/GoodWorker/fe_job_portal/node_modules/@lerna/add/index.js:39:17)
